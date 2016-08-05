@@ -1,24 +1,20 @@
 #This code is intended for RedCell-Kali ISO maintainers.
-
-If you just use the ISO I make, you don't need to worry about this repo. 
-
-If you want to build your own ISO the same way I do, this code is for you =)
+- If you just use the ISO I make, you don't need to worry about this repo. 
+- If you want to build your own ISO the same way I do, this code is for you =)
 
 
-# First Time Setup
+#First Time Setup
+```
 apt-get install curl git live-build cdebootstrap
-
 git clone https://github.com/NECPC/RedCell-Kali-live-build-config.git
+```
 
 Now you can simply build an updated Kali ISO by entering the “live-build-config” directory and running our build.sh wrapper script, as follows:
-
-
+```
 cd live-build-config
-
 ./build.sh --distribution kali-rolling --verbose
-
-
-\#The “build.sh” script will take a while to complete, as it downloads all of the required packages needed to create your ISO. Good time for a coffee.
+```
+The “build.sh” script will take a while to complete, as it downloads all of the required packages needed to create your ISO. Good time for a coffee.
 
 
 Some Debian bugs filed for issues encountered in Kali:
