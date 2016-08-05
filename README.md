@@ -17,7 +17,8 @@ cd live-build-config
 The “build.sh” script will take a while to complete, as it downloads all of the required packages needed to create your ISO. Good time for a coffee.
 
 
-Some Debian bugs filed for issues encountered in Kali:
+
+#### Some Debian bugs filed for issues encountered in Kali:
 
 \#684865: live-build: lb_binary_syslinux fails to include flavour in menu entry
 
